@@ -280,5 +280,8 @@ function formatDate(date, includeTime) {
     document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
   });
 
+
+
+
 })()
 

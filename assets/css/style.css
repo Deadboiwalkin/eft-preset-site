@@ -1,7 +1,7 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: 'Bender'; /* Using 'Bender' font */
   color: #444;
@@ -230,6 +230,77 @@ h6,
   left: 100%;
   visibility: visible;
 }
+
+/* Base styles for auth links */
+.auth-links {
+  display: flex;
+  align-items: center;
+}
+
+.auth-links .nav-link {
+  margin-left: 20px; /* Adjust spacing between links */
+  color: #fff; /* White color for the links */
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.auth-links .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  /* Hide the navbar on mobile */
+  #navbar ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #000; /* Background color for mobile menu */
+  }
+
+  /* Show the mobile toggle button */
+  #navbar .mobile-nav-toggle {
+      display: block;
+      cursor: pointer;
+      color: #fff;
+  }
+
+  /* Hide auth links on mobile */
+  .auth-links {
+      display: none;
+  }
+
+  /* Toggle menu visibility */
+  .navbar.mobile-nav-active ul {
+      display: flex;
+  }
+}
+
+/* Style for mobile menu toggle button */
+.mobile-nav-toggle {
+  display: none; /* Hidden by default */
+  font-size: 24px;
+}
+
+/* Style for mobile menu items */
+.navbar.mobile-nav-active {
+  position: absolute;
+  top: 60px; /* Adjust based on header height */
+  right: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+}
+
+.navbar.mobile-nav-active ul {
+  display: flex;
+}
+
+
+
+
+
+
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -1792,6 +1863,10 @@ section {
   line-height: 0;
   font-size: 18px;
 }
+
+/*--------------------------------------------------------------
+# Status
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Contact
