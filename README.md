@@ -1,1 +1,0 @@
-[![Issues][issues-shield]][https://github.com/Deadboiwalkin/eft-preset-site/issues]
