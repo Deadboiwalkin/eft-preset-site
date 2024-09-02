@@ -19,9 +19,9 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-<!--
+
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url] -->
+[![Forks][forks-shield]][forks-url] 
 [![Issues][issues-shield]][issues-url]
 
 
@@ -30,6 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Deadboiwalkin/eft-preset-site">
+  <img src="/assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">EFT PRESET SITE</h3>
@@ -90,20 +91,15 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Deadboiwalkin/eft-preset-site.svg?style=for-the-badge
 [contributors-url]: https://github.com/Deadboiwalkin/eft-preset-site/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Deadboiwalkin/eft-preset-site.svg?style=for-the-badge
 [forks-url]: https://github.com/Deadboiwalkin/eft-preset-site/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Deadboiwalkin/eft-preset-site.svg?style=for-the-badge
 [stars-url]: https://github.com/Deadboiwalkin/eft-preset-site/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Deadboiwalkin/eft-preset-site.svg?style=for-the-badge
 [issues-url]: https://github.com/Deadboiwalkin/eft-preset-site/issues
-
-
-
-
-
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Deadboiwalkin/eft-preset-site.svg?style=for-the-badge
 [license-url]: https://github.com/Deadboiwalkin/eft-preset-site/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
