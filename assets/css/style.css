@@ -245,7 +245,8 @@ h6,
 }
 
 .auth-links .nav-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #927F5E;
 }
 
 /* Mobile responsiveness */
@@ -295,12 +296,6 @@ h6,
 .navbar.mobile-nav-active ul {
   display: flex;
 }
-
-
-
-
-
-
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -1865,8 +1860,77 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Status
+# Login / Register / Forgot Password
 --------------------------------------------------------------*/
+		/* Style for the login page form only */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  background-color:  #927F5E;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  
+  /* Center the form within the parent */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Input Fields */
+.form-control {
+  background-color: #313131c4;
+  border: none;
+  color: #a39090;
+  border-radius: 30px;
+  padding: 12px 20px;
+  margin-bottom: 15px;
+}
+
+.form-control::placeholder {
+  color: #bbb;
+}
+
+/* Buttons */
+.btn-login, .btn-social {
+  background-color: #000000;
+  border: none;
+  border-radius: 30px;
+  width: 100%;
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-social {
+  background-color: #000000;
+}
+
+.btn-login i {
+  margin-left: 10px;
+}
+
+/* Divider and Links */
+.divider {
+  color: #bbb;
+  margin: 20px 0;
+}
+
+.login-bottom-links {
+  color: #bbb;
+}
+
+.login-bottom-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.login-bottom-links a:hover {
+  text-decoration: underline;
+}
 
 /*--------------------------------------------------------------
 # Contact
